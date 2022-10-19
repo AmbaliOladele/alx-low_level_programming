@@ -9,12 +9,12 @@
 
 int main(void)
 {
-	int count = 2;
+	int count;
 	unsigned long int num = 0, numFn = 1, num2 = 0, numFn2 = 2;
 	unsigned long int output, output2, output3;
 
 	printf("%lu, %lu, ", numFn, numFn2);
-	for (count; count < 98; count++)
+        for (count = 2; count < 98; count++)
 	{
 		if ((numFn + numFn2 > AMOUNT) || (num || num2 > 0))
 		{
