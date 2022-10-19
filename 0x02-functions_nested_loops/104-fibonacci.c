@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/** 
+/**
  * main - finds and prints the first 98 fibonacci numbers
  *
  * Return: 0
@@ -8,25 +8,43 @@
 
 int main(void)
 {
-	int fn = 2;
+	int c, boolean, boolean2;
+	long int n1, n2, fn, fn2, n11, n22;
 
-	float num1 = 1;
-	float num2 = num1 + 1;
-	float num3 = num1 + num2;
-
-	printf("%.0f, ", num1);
-	printf("%.0f, ", num2);
-	while (fn < 98)
+	n1 = 1;
+	n2 = 2;
+	boolean =  boolean2 = 1;
+	printf("%ld, %ld", n1, n2);
+	for (c = 0; c < 96; c++)
 	{
-		fn++;
-		printf("%.0f", num3);
-		num1 = num2;
-		num2 = num3;
-		num3 = num1 + num2;
-		if (fn < 98)
+		if (boolean)
 		{
-			printf(", ");
+			fn = n1 + n2;
+			printf(", %ld", fn);
+			n1 = n2;
+			n2 = fn;
 		}
+		else
+		{
+			if (boolean2)
+			{
+				n11 = n1 % 1000000000;
+				n22 = n2 % 1000000000;
+				n1 = n1 / 1000000000;
+				n2 = n2 / 1000000000;
+				boolean2 = 0;
+			}
+			fn2 = (n11 + n22);
+			fn = n1 + n2 + (fn2 / 1000000000);
+			printf(", %ld", fn);
+			printf("%ld", fn2 % 1000000000);
+			n1 = n2;
+			n11 = n22;
+			n2 = fn;
+			n22 = (fn2 % 1000000000);
+		}
+		if (((n1 + n2) < 0) && boolean == 1)
+			boolean = 0;
 	}
 	printf("\n");
 	return (0);
