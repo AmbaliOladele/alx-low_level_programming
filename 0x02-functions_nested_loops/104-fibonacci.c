@@ -17,7 +17,7 @@ int main(void)
 
 	for (count = 2; count < 98; count++)
 	{
-		if ((numFn + numFn2 > AMOUNT) || (num || num2 > 0))
+		if ((numFn + numFn2 > AMOUNT) || num > 0 || num > 0)
 		{
 			output = (numFn + numFn2) / AMOUNT;
 			output2 = (numFn + numFn2) % AMOUNT;
