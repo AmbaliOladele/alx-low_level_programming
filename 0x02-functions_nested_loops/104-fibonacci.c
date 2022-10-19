@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define AMOUNT 1000000000
 
 /**
  * main - finds and prints the first 98 fibonacci numbers
@@ -8,43 +9,30 @@
 
 int main(void)
 {
-	int number, checkNumber, checkNumber2; /*modF2*/
-	long int num1, num2, fn, fn2, num11, num22;
+	int count = 2;
+	unsigned long int num = 0, numFn = 1, num2 = 0, numFn2 = 2;
+	unsigned long int output, output2, output3;
 
-	num1 = 1, num2 = 2;
-	checkNumber = checkNumber2 = 1;
-	printf("%ld, %ld", num1, num2);
-	for (number = 0; number < 96; number++)
+	printf("%lu, %lu, ", numFn, numFn2);
+	for (count; count < 98; count++)
 	{
-		if (checkNumber)
+		if ((numFn + numFn2 > AMOUNT) || (num || num2 > 0))
 		{
-			fn = num1 + num2;
-			printf(", %ld", fn);
-			num1 = num2;
-			num2 = fn;
+			output = (numFn + numFn2) / AMOUNT;
+			output2 = (numFn + numFn2) % AMOUNT;
+			output3 = num + num2 + output;
+			num = num2, num2 = output3;
+			numFn = numFn2, numFn2 = output2;
+			printf("%lu%010lu", num2, numFn2);
 		}
 		else
 		{
-			if (checkNumber2)
-			{
-				num11 = num1 % 1000000000;
-				num1 /= 1000000000;
-				num22 = num2 % 1000000000;
-				num2 /= 1000000000;
-				checkNumber2 = 0;
-			}
-			/*modF2 = fn2 % 1000000000;*/
-			fn2 = num11 + num22;
-			fn = (num1 + num2) + (fn2 % 1000000000);
-			printf(", %ld", fn);
-			printf("%ld", fn2 % 1000000000);
-			num1 = num2;
-			num11 = num22;
-			num2 = fn;
-			num22 = fn2 % 1000000000;
+			output2 = numFn + numFn2;
+			numFn = numFn2, numFn2 = output2;
+			printf("%lu", numFn2);
 		}
-		if (((num1 + num2) < 0) && checkNumber == 1)
-			checkNumber = 0;
+		if (count != 97)
+			printf(", ");
 	}
 	printf("\n");
 	return (0);
