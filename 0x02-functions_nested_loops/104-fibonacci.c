@@ -10,14 +10,14 @@
 int main(void)
 {
 	int count;
-	unsigned long int num = 0, numFn = 1, num2 = 0, numFn2 = 2;
+	unsigned long int num = 0, num2 = 0, numFn = 1, numFn2 = 2;
 	unsigned long int output, output2, output3;
 
 	printf("%lu, %lu, ", numFn, numFn2);
 
 	for (count = 2; count < 98; count++)
 	{
-		if ((numFn + numFn2 > AMOUNT) || num > 0 || num > 0)
+		if (numFn + numFn2 > AMOUNT || num2 > 0 || num > 0)
 		{
 			output = (numFn + numFn2) / AMOUNT;
 			output2 = (numFn + numFn2) % AMOUNT;
