@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int number, checkNumber, checkNumber2, modF2;
+	int number, checkNumber, checkNumber2; /*modF2*/
 	long int num1, num2, fn, fn2, num11, num22;
 
 	num1 = 1, num2 = 2;
@@ -33,15 +33,15 @@ int main(void)
 				num2 /= 1000000000;
 				checkNumber2 = 0;
 			}
-			modF2 = fn2 % 1000000000;
+			/*modF2 = fn2 % 1000000000;*/
 			fn2 = num11 + num22;
-			fn = (num1 + num2) + (modF2);
+			fn = (num1 + num2) + (fn2 % 1000000000);
 			printf(", %ld", fn);
-			printf("%d", modF2);
+			printf("%ld", fn2 % 1000000000);
 			num1 = num2;
 			num11 = num22;
 			num2 = fn;
-			num22 = modF2;
+			num22 = fn2 % 1000000000;
 		}
 		if (((num1 + num2) < 0) && checkNumber == 1)
 			checkNumber = 0;
