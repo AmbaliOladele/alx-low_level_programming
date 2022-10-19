@@ -14,7 +14,8 @@ int main(void)
 	unsigned long int output, output2, output3;
 
 	printf("%lu, %lu, ", numFn, numFn2);
-        for (count = 2; count < 98; count++)
+
+	for (count = 2; count < 98; count++)
 	{
 		if ((numFn + numFn2 > AMOUNT) || (num || num2 > 0))
 		{
