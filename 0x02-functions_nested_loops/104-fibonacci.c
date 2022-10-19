@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define AMOUNT 1000000000
+#define AMOUNT 10000000000
 
 /**
  * main - finds and prints the first 98 fibonacci numbers
@@ -24,7 +24,7 @@ int main(void)
 			output3 = num + num2 + output;
 			num = num2, num2 = output3;
 			numFn = numFn2, numFn2 = output2;
-			printf("%lu%lu", num2, numFn2);
+			printf("%lu%010lu", num2, numFn2);
 		}
 		else
 		{
