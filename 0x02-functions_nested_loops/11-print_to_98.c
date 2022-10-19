@@ -10,7 +10,7 @@
 
 void print_to_98(int n)
 {
-	
+
 	int index;
 
 	if (n > 98)
@@ -22,13 +22,13 @@ void print_to_98(int n)
 				printf(", ");
 		}
 	}
-	else if (n < 98)
+	else
 	{
 		for (index = n; index <= 98; index++)
 		{
 			printf("%d", index);
 			if (index != 98)
-				printf(", "); 
+				printf(", ");
 		}
 	}
 	printf("\n");
