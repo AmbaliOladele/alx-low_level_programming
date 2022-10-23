@@ -1,5 +1,5 @@
 # Hello World in C
-Aims at learning what is entry point, basics commands (puts, printf, putchar), compilation process with gcc in __C language__
+Project done during __ALX Full Stack Software Engineering Program__ . Aims at learning what entry points are, basics commands (puts, printf, putchar), compilation process with gcc in __C language__
 
 ## Files
 All of the following files are scripts and programs written in C: 
