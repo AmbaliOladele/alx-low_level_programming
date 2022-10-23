@@ -1,4 +1,5 @@
-# Variables, if, else and while
+## 0x01, Variables, if, else and while
+Project done during __ALX Full Stack Software Engineering Program__ Aims at learning about arithmetic operators, relational operators, boolean operators, comments, declaring variables and loops in C language.
 
 ## Files
 All the following files are programs written in C
@@ -9,7 +10,7 @@ All the following files are programs written in C
 ### [1-last_digit.c](1-last_digit.c)
 > Prints the last digit of a randomly generated number
 
-[2-print_alphabet.c](3-print_alphabets.c)
+### [2-print_alphabet.c](3-print_alphabets.c)
 > Prints the alphabet *a-z* in lowercase
 
 ### [3-print_alphabets.c](3-print_alphabets.c)
@@ -35,10 +36,11 @@ All the following files are programs written in C
 
 ### [10-print_comb2.c](10-print_comb2.c)
 > Prints the numbers from 00 to 99
+
 ### [100-print_comb3.c](100-print_comb3.c)
 > Prints all possible different combinations of two digits, separated by a comma
 
-###[101-print_comb4.c](101-print_comb4.c)
+### [101-print_comb4.c](101-print_comb4.c)
 > Prints all possible different combinations of three digits
 
 ### [102-print_comb5.c](102-print_comb5.c)
