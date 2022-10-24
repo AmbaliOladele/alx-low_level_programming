@@ -18,8 +18,8 @@ C files | Description
 [7-puts_half.c](7-puts_half.c) | Prints half of a string
 [8-print_array.c](8-print_array.c) |  Prints `n` elements of an array of integers 
 [9-strcpy.c](9-strcpy.c) | Copies a string and stores it in another pointer variable
-[]() | 
-[]() | 
+[100-atoi.c](100-atoi.c) | Converts a string to an Integer 
+[101-keygen.c](101-keygen.c) | Generates random valid passwords for the program [crack-me](https://github.com/holbertonschool/0x04.c)
 
 *Full stack software engineer Oladele*
 
