@@ -16,7 +16,7 @@ C files | Description
 [5-rev_string.c](5-rev_string.c) | Reverses a string.
 [6-puts2.c](6-puts2.c) | Prints every other character of a string, starting with the first character
 [7-puts_half.c](7-puts_half.c) | Prints half of a string
-[]() | 
+[8-print_array.c](8-print_array.c) |  Prints `n` elements of an array of integers 
 []() | 
 []() | 
 []() | 
