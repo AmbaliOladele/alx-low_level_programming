@@ -14,3 +14,12 @@ C files | Description
 [3-puts.c](3-puts.c) | Prints a string
 [4-print_rev.c](4-print_rev.c) | Prints a string in reverse
 [5-rev_string.c](5-rev_string.c) | Reverses a string.
+[6-puts2.c](6-puts2.c) | Prints every other character of a string, starting with the first character
+[]() | 
+[]() | 
+[]() | 
+[]() | 
+[]() | 
+[]() | 
+[]() | 
+
