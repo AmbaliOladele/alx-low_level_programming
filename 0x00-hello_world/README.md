@@ -1,6 +1,8 @@
-# Hello World in C
-All of the following files are scripts and programs written in C:
+## 0x00, Hello World in C
+Project done during __ALX Full Stack Software Engineering Program__ . Aims at learning what entry points are, basics commands (puts, printf, putchar), compilation process with gcc in __C language__
 
+## Files
+All of the following files are scripts and programs written in C: 
 Filename | Description
 --- | ---
 [0-preprocessor](0-preprocessor) | Runs a C file through the preprocessor and saves the result into another file
