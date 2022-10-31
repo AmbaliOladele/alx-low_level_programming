@@ -1,9 +1,9 @@
 ## 0x07 Pointers Arrays Strings
 
 Aims at learning
-What are pointers to pointers and how to use them
-What are multidimensional arrays and how to use them
-What are the most common C standard library functions to manipulate strings
+- What are pointers to pointers and how to use them
+- What are multidimensional arrays and how to use them
+- What are the most common C standard library functions to manipulate strings
 
 File | Description
 --- | ---
@@ -19,4 +19,4 @@ File | Description
 [100-set_string.c](100-set_string.c) | A function that sets the value of a pointer to a char.
 [101-crackme_password](101-crackme_password) | Create a file that contains the password for the crackme2 executable
 
-
+__Full stack software engineer Oladele__
