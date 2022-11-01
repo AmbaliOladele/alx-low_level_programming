@@ -7,7 +7,6 @@ Aims at learning
 
 File | Description
 --- | ---
-
 [0-memset.c](0-memset.c) | A function that fills the memory with a constant byte
 [1-memcpy.c](1-memcpy.c) | A function that copies a memory area
 [2-strchr.c](2-strchr.c) | A function that locates a character in a string
