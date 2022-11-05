@@ -7,7 +7,8 @@ Aims at learning
 Files | Description
 --- | ---
 [0-whatsmyname.c](0-whatsmyname.c) | A programs that prints its name
-[]() |
-[]() |
-[]() |
-[]() |
+[1-args.c](1-args.c) | A program that prints the number of arguments passed into it.
+[2-args.c](2-args.c) | A program that prints all arguments it receives.
+[3-mul.c](3-mul.c) | A program that multiplies two numbers.
+[4-add.c](4-add.c) | A program that adds positive numbers.
+[100-change.c](100-change.c) | A program that prints the minimum number of coins to make change for an amount of money.
